@@ -1,0 +1,41 @@
+.cart { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItem{
+    width: 700px;
+    height:  250px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow:  0px 3px 15px #00000033;
+}
+
+.cart img{
+    width: 200px;
+}
+
+.cart .description{
+    width: 100%;
+    font-size: 30px;
+}
+
+.count input{
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.checkout button{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    background-color: #131313;
+    margin: 10px;
+    cursor: pointer;
+}
